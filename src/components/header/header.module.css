@@ -1,0 +1,174 @@
+.headerContainer {
+  min-width: 100%;
+  background-color: #202024;
+  color: #fff;
+  padding: clamp(0.5rem, 2vw, 1rem) clamp(1rem, 4vw, 2rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .headerContainer {
+    padding: 0.5rem 1rem;
+  }
+}
+
+.logo {
+  font-size: clamp(1rem, 2vw, 1.5rem); /* Responsivo */
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 2vw, 3rem); /* Espaçamento responsivo */
+}
+
+.navList li {
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .navList {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fff;
+  font-size: clamp(0.85rem, 1.8vw, 1rem); /* Texto responsivo */
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.navLink:hover {
+  color: #ff6f61;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover ul {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .dropdown {
+    width: 100%;
+  }
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  border-radius: 0px 0px 10px 10px;
+  padding: 0.5rem 0;
+  list-style: none;
+  flex-direction: column;
+  min-width: 175px;
+}
+
+.dropdownContent li {
+  padding: 0.5rem 1rem;
+}
+
+.dropdownContent li:hover {
+  background-color: #444;
+}
+
+@media (max-width: 768px) {
+  .dropdownContent {
+    position: static;
+    border: none;
+    background: none;
+  }
+}
+
+.userArea {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.userArea a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Poppins", "Poppins Fallback";
+  font-weight: 300;
+  font-style: normal;
+}
+
+.userArea a:hover {
+  color: #ff6f61;
+}
+
+@media (max-width: 768px) {
+  .userArea {
+    display: none;
+  }
+}
+
+.hamburgerMenu {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburgerMenu span {
+  background-color: #fff;
+  height: 2px;
+  width: 25px;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .hamburgerMenu {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.mobileNav {
+  display: none;
+  flex-direction: column;
+  gap: 1rem;
+  transition: all 0.3s ease;
+}
+
+.mobileNav.open {
+  display: flex;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  width: 100%;
+  padding: 1rem 0;
+  z-index: 999;
+}

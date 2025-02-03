@@ -1,0 +1,120 @@
+.appAgendaJogos {
+  width: 100%;
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #0e0e0e;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.headerAgendaJogos {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.headerAgendaJogos h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.headerAgendaJogos p {
+  font-size: 14px;
+  color: #555;
+}
+
+.galleryContainerAgendaJogos {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.columnAgendaJogos {
+  flex: 1;
+  text-align: center;
+}
+
+.columnAgendaJogos h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #ddd;
+}
+
+/* .galleryAgendaJogos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+} */
+.galleryAgendaJogos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+/* .photoAgendaJogos {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+} */
+.photoAgendaJogos {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 180px;  /* Mantém a largura consistente */
+  height: 260px; /* Define uma altura fixa para todas as caixas */
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photoAgendaJogos:hover {
+  border: 2px solid aqua;
+  background: #0a0a0a;
+}
+
+/* .photoAgendaJogos img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+} */
+.photoAgendaJogos img {
+  width: 100%;
+  height: 190px;  /* Manter a altura das imagens consistentes */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.photoAgendaJogos p {
+  margin: 10px 0 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .galleryContainerAgendaJogos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .columnAgendaJogos {
+    width: 100%;
+    max-width: 400px;
+  }
+}
