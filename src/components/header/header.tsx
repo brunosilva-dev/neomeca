@@ -107,7 +107,7 @@ export function Header() {
           {links.map((link) => (
             <li key={link.id}>
               <a href={link.url} className={styles.navLink}>
-                {renderIcon(link.image)} {/* Renderiza o ícone */}
+                {renderIcon(link.image)}
                 {link.name}
               </a>
             </li>
