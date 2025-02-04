@@ -5,7 +5,7 @@ import * as Icons from "phosphor-react";
 // import * as IconsCore from "@coreui/icons";
 // import * as Iconsfw from "@fortawesome/free-brands-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Para usar com o FontAwesome
-import styles from "./Header.module.css";
+import styles from "./header.module.css";
 import { useState } from "react";
 import { links } from "../ui/lib/definitions";
 import { poppins } from "../ui/fontes";
