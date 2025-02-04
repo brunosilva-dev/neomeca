@@ -1,6 +1,6 @@
 .appAgendaJogos {
   width: 100%;
-  max-width: 850px;
+  max-width: 1200px;
   margin: 40px auto;
   padding: 20px;
   background-color: #0e0e0e;
@@ -116,5 +116,12 @@
   .columnAgendaJogos {
     width: 100%;
     max-width: 400px;
+  }
+  .columnAgendaJogos h2 {
+    margin: 20px auto;
+    font-size: 20px;
+    color: #0a0a0a;
+    background: #ddd;
+    border-radius: 4px;
   }
 }

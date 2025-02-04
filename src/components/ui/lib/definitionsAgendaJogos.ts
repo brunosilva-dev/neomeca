@@ -20,6 +20,7 @@ const generateSequentialIds = (
 };
 
 export const games = generateSequentialIds({
+  // JOGOS DESEJADOS
   Desejados: [
     {
       name: "Jogo 2024 - 1",
@@ -27,23 +28,120 @@ export const games = generateSequentialIds({
       image: "/",
     },
   ],
-  Live: [
+  // JOGOS COMPRADOS
+  Comprados: [
     {
       name: "Jogo 2024 - 1",
       url: "/teste",
       image: "/",
     },
   ],
+  // JOGOS EM LIVE
+  Live: [
+    {
+      name: "Battlefield 1",
+      url: "https://www.youtube.com/watch?v=9eegxMa0UrU&list=PL-LIHCsmnfdC5_wzF6u7YN9mDAk_u7M5V",
+      image: "../assets/agenda-jogos/Battlefield1.jfif",
+      alt: "Jogo Battlefield 1",
+    },
+    {
+      name: "The Last Of Us",
+      url: "https://www.youtube.com/watch?v=9eegxMa0UrU&list=PL-LIHCsmnfdC5_wzF6u7YN9mDAk_u7M5V",
+      image: "../assets/agenda-jogos/TheLastOfUs.jfif",
+      alt: "Jogo The Last Of Us",
+    },
+  ],
+  // JOGOS PAUSADOS
   Pausados: [
     {
       name: "A Plague Tale: Innocence",
       url: "https://www.youtube.com/watch?v=9eegxMa0UrU&list=PL-LIHCsmnfdC5_wzF6u7YN9mDAk_u7M5V",
       image: "../assets/agenda-jogos/a-plague-tale-innocence-neomeca.jpeg",
+      alt: "Jogo A Plague Tale: Innocence",
     },
     {
       name: "The Division",
       url: "https://www.youtube.com/watch?v=oxwdsCr9KN0&list=PL-LIHCsmnfdBtHOopf2SbTNboFwMue8lT",
       image: "../assets/agenda-jogos/the-division-neomeca.jpeg",
+      alt: "Jogo The Division",
+    },
+    {
+      name: "Hogwarts Legacy",
+      url: "https://www.youtube.com/watch?v=JGqZ2p2bOXE&list=PL-LIHCsmnfdC0soED4zuTHak78ckDF2dx",
+      image: "../assets/agenda-jogos/HogwartsLegacy.jpeg",
+      alt: "Jogo Hogwarts Legacy",
+    },
+    {
+      name: "Ghost Recon Breakpoint",
+      url: "https://www.youtube.com/watch?v=00eYpPVvq6s&list=PL-LIHCsmnfdCZWGc286_foJNXmc1QAq6l",
+      image: "../assets/agenda-jogos/GhostReconBreakpoint.jpeg",
+      alt: "Jogo Ghost Recon Breakpoint",
+    },
+    {
+      name: "Ghost Recon Wildlands",
+      url: "https://www.youtube.com/watch?v=yMY6ssxb_FM&list=PL-LIHCsmnfdC0D8bgDFTsWo-zOoZS3JvE",
+      image: "../assets/agenda-jogos/GhostReconWildlands.jfif",
+      alt: "Jogo Ghost Recon Wildlands",
+    },
+    {
+      name: "Star Wars Jedi Fallen Order",
+      url: "https://www.youtube.com/watch?v=FLSuByP-JVU&list=PL-LIHCsmnfdBuSW12-hWLnE1czWJo_VtE",
+      image: "../assets/agenda-jogos/StarWarsJediFallenOrder.jpeg",
+      alt: "Jogo Star Wars Jedi Fallen Order",
+    },
+    {
+      name: "Ghostwire - Tokyo",
+      url: "https://www.youtube.com/watch?v=ShtnBBfTCuI&list=PL-LIHCsmnfdBW_j5HnWnGl1jqt_-dw2Pk",
+      image: "../assets/agenda-jogos/GhostwireTokyo.jfif",
+      alt: "Jogo Ghostwire - Tokyo",
+    },
+    {
+      name: "Wolfenstein 2 - The New Colossus",
+      url: "https://www.youtube.com/watch?v=_FbG5m72pl0&list=PL-LIHCsmnfdBuTo2-jR3QqcKsc22VK-To",
+      image: "../assets/agenda-jogos/Wolfenstein2TheNewColossus.jpeg",
+      alt: "Jogo Wolfenstein 2 - The New Colossus",
+    },
+    {
+      name: "Kena Bridge Of Spirits",
+      url: "https://www.youtube.com/watch?v=MpL8P05T3DQ&list=PL-LIHCsmnfdBlemAf0S1xEIHDOzbL84_9",
+      image: "../assets/agenda-jogos/KenaBridgeOfSpirits.avif",
+      alt: "Jogo Kena Bridge Of Spirits",
+    },
+    {
+      name: "Final Fantasy XV",
+      url: "https://www.youtube.com/watch?v=wFpnu-wlQGo&list=PL-LIHCsmnfdBpNAHO-vSTWcGn9IOfO5Ei",
+      image: "../assets/agenda-jogos/FinalFantasyXV.jpg",
+      alt: "Jogo Final Fantasy XV",
+    },
+    {
+      name: "No Man's Sky",
+      url: "https://www.youtube.com/watch?v=9fltkM4RZD0&list=PL-LIHCsmnfdCdUpdQkdrRioGubXULzhEd",
+      image: "../assets/agenda-jogos/NoMansSky.avif",
+      alt: "Jogo No Man's Sky",
+    },
+    {
+      name: "Black Myth: Wukong",
+      url: "https://www.youtube.com/watch?v=y8uMlNhTFPA&list=PL-LIHCsmnfdAdcF3Hlw7lHx-kjvXfeyTN",
+      image: "../assets/agenda-jogos/BlackMythWukong.jpg",
+      alt: "Jogo Black Myth: Wukong",
+    },
+    {
+      name: "Quantum Break",
+      url: "https://www.youtube.com/watch?v=fqQ6XiSOMKU&list=PL-LIHCsmnfdAQhqOZVcXT8k89uyp8a8md",
+      image: "../assets/agenda-jogos/QuantumBreak.jfif",
+      alt: "Jogo Quantum Break",
+    },
+    {
+      name: "S.T.A.L.K.E.R 2",
+      url: "https://www.youtube.com/watch?v=_eNoOXnR51U&list=PL-LIHCsmnfdDcKVN-VqAQsKQmOEeV9E9k",
+      image: "../assets/agenda-jogos/STALKER2.jpg",
+      alt: "Jogo S.T.A.L.K.E.R 2",
+    },
+    {
+      name: "Enigma do Medo",
+      url: "https://www.youtube.com/watch?v=qCDZiTK2b90&list=PL-LIHCsmnfdDxo0AkfMfn092GtRc7Ze8e",
+      image: "../assets/agenda-jogos/EnigmaDoMedo.jpeg",
+      alt: "Jogo Enigma do Medo",
     },
   ],
   Zerados: [
