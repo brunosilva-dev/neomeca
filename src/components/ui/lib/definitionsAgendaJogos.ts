@@ -23,30 +23,62 @@ export const games = generateSequentialIds({
   // JOGOS DESEJADOS
   Desejados: [
     {
-      name: "Jogo 2024 - 1",
-      url: "/teste",
-      image: "/",
+      name: "kingdom Come Deliverance 2",
+      url: "https://www.youtube.com/watch?v=7ynJN-HejlY",
+      image: "../assets/agenda-jogos/kingdom-come-deliverance-2.avif",
+      alt: "Jogo kingdom Come Deliverance 2",
     },
   ],
   // JOGOS COMPRADOS
   Comprados: [
     {
-      name: "Jogo 2024 - 1",
-      url: "/teste",
-      image: "/",
+      name: "Hitman Blood Money",
+      url: "https://www.youtube.com/watch?v=PbslIiOPL9g",
+      image: "../assets/agenda-jogos/hitman-blood-money.jpg",
+      alt: "Jogo Hitman Blood Money",
+    },
+    {
+      name: "Kingdom Come Deliverance",
+      url: "https://www.youtube.com/watch?v=t4SI06Gl9gA",
+      image: "../assets/agenda-jogos/kingdom-come-deliverance.avif",
+      alt: "Jogo Kingdom Come Deliverance",
+    },
+    {
+      name: "Mad Max",
+      url: "https://www.youtube.com/watch?v=94r4A0-eCt0",
+      image: "../assets/agenda-jogos/mad-max.avif",
+      alt: "Jogo Mad Max",
+    },
+    {
+      name: "Murdered Soul Suspect",
+      url: "https://www.youtube.com/watch?v=d3ACdOWzpfA&pp=ygUqbXVyZGVyZWQgc291bCBzdXNwZWN0IHRyYWlsZXIgZW0gcG9ydHVndWVz",
+      image: "../assets/agenda-jogos/murdered-soul-suspect.avif",
+      alt: "Jogo Murdered Soul Suspect",
+    },
+    {
+      name: "Shadows of Doubt",
+      url: "https://www.youtube.com/watch?v=JHZXZEPaZL8",
+      image: "../assets/agenda-jogos/shadows-of-doubt.jfif",
+      alt: "Jogo Shadows of Doubt",
+    },
+    {
+      name: "The Sinking City",
+      url: "https://www.youtube.com/watch?v=iXhw7OcPw8Y",
+      image: "../assets/agenda-jogos/sinking-city.avif",
+      alt: "Jogo The Sinking City",
     },
   ],
   // JOGOS EM LIVE
   Live: [
     {
       name: "Battlefield 1",
-      url: "https://www.youtube.com/watch?v=9eegxMa0UrU&list=PL-LIHCsmnfdC5_wzF6u7YN9mDAk_u7M5V",
-      image: "../assets/agenda-jogos/Battlefield1.jfif",
+      url: "https://www.youtube.com/@LivesNeoMeca/streams",
+      image: "../assets/agenda-jogos/Battlefield1.jpg",
       alt: "Jogo Battlefield 1",
     },
     {
       name: "The Last Of Us",
-      url: "https://www.youtube.com/watch?v=9eegxMa0UrU&list=PL-LIHCsmnfdC5_wzF6u7YN9mDAk_u7M5V",
+      url: "https://www.youtube.com/@LivesNeoMeca/streams",
       image: "../assets/agenda-jogos/TheLastOfUs.jfif",
       alt: "Jogo The Last Of Us",
     },
