@@ -73,7 +73,7 @@ export const games = generateSequentialIds({
     {
       name: "Battlefield 1",
       url: "https://www.youtube.com/@LivesNeoMeca/streams",
-      image: "../assets/agenda-jogos/Battlefield1.jpg",
+      image: "../assets/agenda-jogos/battlefield1.jpg",
       alt: "Jogo Battlefield 1",
     },
     {
