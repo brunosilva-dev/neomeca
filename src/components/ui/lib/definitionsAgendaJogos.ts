@@ -20,6 +20,15 @@ const generateSequentialIds = (
 };
 
 export const games = generateSequentialIds({
+  // JOGOS INDICADOS PELO PUBLICO
+  Indicações: [
+    {
+      name: "kingdom Come Deliverance 2",
+      url: "https://www.youtube.com/watch?v=7ynJN-HejlY",
+      image: "../assets/agenda-jogos/kingdom-come-deliverance-2.avif",
+      alt: "Jogo kingdom Come Deliverance 2",
+    },
+  ],
   // JOGOS DESEJADOS
   Desejados: [
     {
