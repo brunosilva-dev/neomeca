@@ -75,7 +75,7 @@ export const links: Link[] = [
       {
         id: 31,
         name: "jogos Steam",
-        url: "/jogos-steam",
+        url: "/loja/steam",
         icon: "faSteam",
         image: "../assets/icon/steam-brands-solid.svg",
       },
