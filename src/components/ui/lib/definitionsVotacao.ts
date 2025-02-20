@@ -19,7 +19,7 @@ export const photos = [
     alt: "Murdered Soul Suspect",
   },
   { id: 7, src: "/assets/sinking-city.jpeg", alt: "The Sinking City" },
-  { id: 8, src: "/assets/the last of us.jpg", alt: "The Last Of Us" },
+  { id: 8, src: "/assets/wolfenstein-2.webp", alt: "Wolfstein 2" },
   { id: 9, src: "/assets/the-witcher-3.jpeg", alt: "The Witcher 3" },
   { id: 10, src: "/assets/twin-mirror.jpg", alt: "The Mirror" },
 ];

@@ -9,10 +9,10 @@ export default function Agenda() {
     <div>
       <div className={styles.appAgendaJogos}>
         <header className={styles.headerAgendaJogos}>
-          <h1>Agenda de Jogos</h1>
-          <p>
-            Nossa lista de jogos que queremos comprar, em andamento e
-            finalizado.
+          <h1 className={styles.title}>Agenda de Jogos</h1>
+          <p className={styles.descricaoTitle}>
+            Nossa lista de jogos indicados, desejados, comprados, em live,
+            pausados e zerados!
           </p>
         </header>
         <div className={styles.galleryContainerAgendaJogos}>

@@ -85,12 +85,6 @@ export const games = generateSequentialIds({
       image: "../assets/agenda-jogos/battlefield1.jpg",
       alt: "Jogo Battlefield 1",
     },
-    {
-      name: "The Last Of Us",
-      url: "https://www.youtube.com/@LivesNeoMeca/streams",
-      image: "../assets/agenda-jogos/TheLastOfUs.jfif",
-      alt: "Jogo The Last Of Us",
-    },
   ],
   // JOGOS PAUSADOS
   Pausados: [
@@ -186,6 +180,12 @@ export const games = generateSequentialIds({
     },
   ],
   Zerados: [
+    {
+      name: "The Last Of Us - Part I",
+      url: "https://www.youtube.com/watch?v=wiTUYHheyr0&list=PL-LIHCsmnfdCoLmVhE60rZWUXaMgDgXmu&index=4",
+      image: "../assets/agenda-jogos/TheLastOfUs.jfif",
+      alt: "Jogo The Last Of Us - Part I",
+    },
     {
       name: "Call Of Duty MW Remastered",
       url: "https://www.youtube.com/watch?v=sxovgAY8dxk&list=PL-LIHCsmnfdDJ7auiprqmbVyXH3nzhlKd",
