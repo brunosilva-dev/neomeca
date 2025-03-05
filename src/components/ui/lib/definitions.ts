@@ -1,4 +1,4 @@
-//Menu Dropdown direto do campo.
+//Menu Dropdown direto do campo
 export type Link = {
   id: number;
   name: string;

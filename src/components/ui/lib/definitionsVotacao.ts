@@ -15,11 +15,19 @@ export const photos = [
   { id: 5, src: "/assets/mafia-2.jpg", alt: "Mafia 2" },
   {
     id: 6,
-    src: "/assets/murdered-soul-suspect.jpeg",
-    alt: "Murdered Soul Suspect",
+    src: "/assets/gta-v.png",
+    alt: "GTA V",
   },
   { id: 7, src: "/assets/sinking-city.jpeg", alt: "The Sinking City" },
-  { id: 8, src: "/assets/wolfenstein-2.webp", alt: "Wolfstein 2" },
+  {
+    id: 8,
+    src: "/assets/wolfenstein-2.webp",
+    alt: "Wolfstein 2 - The New Colussus",
+  },
   { id: 9, src: "/assets/the-witcher-3.jpeg", alt: "The Witcher 3" },
-  { id: 10, src: "/assets/twin-mirror.jpg", alt: "The Mirror" },
+  {
+    id: 10,
+    src: "/assets/uncharted-4.avif",
+    alt: "Uncharted 4 - A Thief End",
+  },
 ];
