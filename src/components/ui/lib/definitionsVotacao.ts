@@ -11,18 +11,22 @@ export const photos = [
     src: "/assets/kingdom-come-deliverance.jpeg",
     alt: "Kingdom Come Deliverance",
   },
-  { id: 4, src: "/assets/little-nightmare.jpg", alt: "Little Nightmare" },
+  {
+    id: 4,
+    src: "/assets/disco-elysium-neomeca.webp",
+    alt: "Disco Elysium - The Final Cut",
+  },
   { id: 5, src: "/assets/mafia-2.jpg", alt: "Mafia 2" },
   {
     id: 6,
-    src: "/assets/gta-v.png",
-    alt: "GTA V",
+    src: "/assets/batman-arkham-knight-neomeca.avif",
+    alt: "Batman Arkham Knight",
   },
   { id: 7, src: "/assets/sinking-city.jpeg", alt: "The Sinking City" },
   {
     id: 8,
-    src: "/assets/wolfstein-ii.png",
-    alt: "Wolfstein 2 - The New Colussus",
+    src: "/assets/god-of-war-neomeca.avif",
+    alt: "God Of War",
   },
   { id: 9, src: "/assets/the-witcher-3.jpeg", alt: "The Witcher 3" },
   {
