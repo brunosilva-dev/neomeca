@@ -47,12 +47,6 @@ export const games = generateSequentialIds({
       alt: "Jogo Hitman Blood Money",
     },
     {
-      name: "Kingdom Come Deliverance",
-      url: "https://www.youtube.com/watch?v=t4SI06Gl9gA",
-      image: "../assets/agenda-jogos/kingdom-come-deliverance.avif",
-      alt: "Jogo Kingdom Come Deliverance",
-    },
-    {
       name: "Mad Max",
       url: "https://www.youtube.com/watch?v=94r4A0-eCt0",
       image: "../assets/agenda-jogos/mad-max.avif",
@@ -63,12 +57,6 @@ export const games = generateSequentialIds({
       url: "https://www.youtube.com/watch?v=d3ACdOWzpfA&pp=ygUqbXVyZGVyZWQgc291bCBzdXNwZWN0IHRyYWlsZXIgZW0gcG9ydHVndWVz",
       image: "../assets/agenda-jogos/murdered-soul-suspect.avif",
       alt: "Jogo Murdered Soul Suspect",
-    },
-    {
-      name: "Shadows of Doubt",
-      url: "https://www.youtube.com/watch?v=JHZXZEPaZL8",
-      image: "../assets/agenda-jogos/shadows-of-doubt.jfif",
-      alt: "Jogo Shadows of Doubt",
     },
     {
       name: "The Sinking City",
@@ -88,6 +76,24 @@ export const games = generateSequentialIds({
   ],
   // JOGOS PAUSADOS
   Pausados: [
+    {
+      name: "Dragon Age The Veilguard",
+      url: "https://www.youtube.com/playlist?list=PL-LIHCsmnfdBUdMYHFACzmBiYLuHcpItQ",
+      image: "../assets/agenda-jogos/dragon-age-veilguard-neomeca.jpg",
+      alt: "Jogo Dragon Age The Veilguard",
+    },
+    {
+      name: "Kingdom Come Deliverance",
+      url: "https://www.youtube.com/playlist?list=PL-LIHCsmnfdB4k_R3kiRfyibROx5SC748",
+      image: "../assets/agenda-jogos/kingdom-come-deliverance.avif",
+      alt: "Jogo Kingdom Come Deliverance",
+    },
+    {
+      name: "Shadows of Doubt",
+      url: "https://www.youtube.com/watch?v=JHZXZEPaZL8",
+      image: "../assets/agenda-jogos/shadows-of-doubt.jfif",
+      alt: "Jogo Shadows of Doubt",
+    },
     {
       name: "A Plague Tale: Innocence",
       url: "https://www.youtube.com/watch?v=9eegxMa0UrU&list=PL-LIHCsmnfdC5_wzF6u7YN9mDAk_u7M5V",
@@ -129,12 +135,6 @@ export const games = generateSequentialIds({
       url: "https://www.youtube.com/watch?v=ShtnBBfTCuI&list=PL-LIHCsmnfdBW_j5HnWnGl1jqt_-dw2Pk",
       image: "../assets/agenda-jogos/GhostwireTokyo.jfif",
       alt: "Jogo Ghostwire - Tokyo",
-    },
-    {
-      name: "Wolfenstein 2 - The New Colossus",
-      url: "https://www.youtube.com/watch?v=_FbG5m72pl0&list=PL-LIHCsmnfdBuTo2-jR3QqcKsc22VK-To",
-      image: "../assets/agenda-jogos/Wolfenstein2TheNewColossus.jpeg",
-      alt: "Jogo Wolfenstein 2 - The New Colossus",
     },
     {
       name: "Kena Bridge Of Spirits",
@@ -180,6 +180,12 @@ export const games = generateSequentialIds({
     },
   ],
   Zerados: [
+    {
+      name: "Wolfenstein 2 - The New Colossus",
+      url: "https://www.youtube.com/watch?v=1PO4QOSiqII&list=PL-LIHCsmnfdBDVM6osJbzU1IhGd5N6rus",
+      image: "../assets/agenda-jogos/Wolfenstein2TheNewColossus.jpeg",
+      alt: "Jogo Wolfenstein 2 - The New Colossus",
+    },
     {
       name: "The Last Of Us - Part I",
       url: "https://www.youtube.com/watch?v=wiTUYHheyr0&list=PL-LIHCsmnfdCoLmVhE60rZWUXaMgDgXmu&index=4",
